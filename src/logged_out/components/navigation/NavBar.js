@@ -32,7 +32,7 @@ const styles = theme => ({
   },
   brandText: {
     fontFamily: "'Baloo Bhaijaan', cursive",
-    fontWeight: 400
+    fontWeight: 500
   },
   noDecoration: {
     textDecoration: "none !important"
@@ -69,6 +69,18 @@ function NavBar(props) {
       name: "Login",
       onClick: openLoginDialog,
       icon: <LockOpenIcon className="text-white" />
+    },
+    { 
+//TODO: add categories
+      link: "/categories",
+      name: "Categories",
+      icon: <LockOpenIcon className="text-white" />
+    },
+    {
+//TODO: add typography
+      link: "/typography",
+      name: "typography",
+      icon: <LockOpenIcon className="text-white" />
     }
   ];
   return (
@@ -77,7 +89,7 @@ function NavBar(props) {
         <Toolbar className={classes.toolbar}>
           <div>
             <Typography
-              variant="h4"
+              variant="h5"
               className={classes.brandText}
               display="inline"
               color="primary"
@@ -85,7 +97,7 @@ function NavBar(props) {
               Wa
             </Typography>
             <Typography
-              variant="h4"
+              variant="h5"
               className={classes.brandText}
               display="inline"
               color="secondary"

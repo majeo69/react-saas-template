@@ -16,7 +16,7 @@ import ColoredButton from "../../../shared/components/ColoredButton";
 import HighlightedInformation from "../../../shared/components/HighlightedInformation";
 import ButtonCircularProgress from "../../../shared/components/ButtonCircularProgress";
 
-const stripePromise = loadStripe("pk_test_6pRNASCoBOKtIshFeQd4XMUh");
+const stripePromise = loadStripe("API KEY FROM STRIPE");
 
 const paymentOptions = ["Credit Card", "SEPA Direct Debit"];
 

@@ -110,3 +110,5 @@ build/
 #lockfiles
 yarn.lock
 
+#mdfiles
+Todo.md

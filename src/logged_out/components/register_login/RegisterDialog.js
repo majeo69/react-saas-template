@@ -55,7 +55,7 @@ function RegisterDialog(props) {
     setIsLoading(true);
     setTimeout(() => {
       setIsLoading(false);
-    }, 1500);
+    }, 1600);
   }, [
     setIsLoading,
     setStatus,
