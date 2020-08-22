@@ -14,15 +14,15 @@ import ColoredButton from "../../../shared/components/ColoredButton";
 const styles = theme => ({
   dialogActions: {
     justifyContent: "flex-start",
-    paddingTop: theme.spacing(2),
-    paddingBottom: theme.spacing(2),
-    paddingRight: theme.spacing(2)
+    paddingTop: theme.spacing(5),
+    paddingBottom: theme.spacing(5),
+    paddingRight: theme.spacing(5)
   },
   dialog: {
     zIndex: 1400
   },
   backIcon: {
-    marginRight: theme.spacing(1)
+    marginRight: theme.spacing(2)
   }
 });
 
@@ -41,26 +41,21 @@ function CookieRulesDialog(props) {
           What Are Cookies
         </Typography>
         <Typography paragraph>
-          As is common practice with almost all professional websites this site
-          uses cookies, which are tiny files that are downloaded to your
-          computer, to improve your experience. This page describes what
-          information they gather, how we use it and why we sometimes need to
-          store these cookies. We will also share how you can prevent these
-          cookies from being stored however this may downgrade or
-          &apos;break&apos; certain elements of the sites functionality. For
-          more general information on cookies see the Wikipedia article on HTTP
-          Cookies.
+          As is common practice with almost all professional websites this site uses cookies, 
+          which are tiny files that are downloaded to your computer, to improve your experience. 
+          This page describes what information they gather, how we use it and why we sometimes need to store these cookies. 
+          We will also share how you can prevent these cookies from being stored however this may downgrade or 'break'
+          certain elements of the sites functionality.
         </Typography>
         <Typography variant="h6" color="primary" paragraph>
           How We Use Cookies
         </Typography>
         <Typography paragraph>
-          We use cookies for a variety of reasons detailed below. Unfortunately
-          in most cases there are no industry standard options for disabling
-          cookies without completely disabling the functionality and features
-          they add to this site. It is recommended that you leave on all cookies
-          if you are not sure whether you need them or not in case they are used
-          to provide a service that you use.
+          We use cookies for a variety of reasons detailed below. 
+          Unfortunately in most cases there are no industry standard options for 
+          disabling cookies without completely disabling the functionality and features they add to this site. 
+          It is recommended that you leave on all cookies 
+          if you are not sure whether you need them or not in case they are used to provide a service that you use.
         </Typography>
         <Typography variant="h6" color="primary" paragraph>
           Disabling Cookies

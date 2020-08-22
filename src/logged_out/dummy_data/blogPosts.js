@@ -138,6 +138,24 @@ export default [
     snippet:
       "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
     content: content
+  },
+  {
+    title: "Post 7",
+    id: 7,
+    date: 1575281600,
+    importImage: import("logged_out/dummy_data/images/blogPost6.jpg"),
+    snippet:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    content: content
+  },
+  {
+    title: "Post 8",
+    id: 8,
+    date: 1575281600,
+    importImage: import("logged_out/dummy_data/images/blogPost6.jpg"),
+    snippet:
+      "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
+    content: content
   }
 ];
 

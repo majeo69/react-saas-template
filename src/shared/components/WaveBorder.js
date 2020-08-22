@@ -6,17 +6,17 @@ const styles = {
   waves: {
     position: "relative",
     width: "100%",
-    marginBottom: -7,
-    height: "7vw",
-    minHeight: "7vw"
+    marginBottom: -8,
+    height: "8vw",
+    minHeight: "8vw"
   },
   "@keyframes moveForever": {
     from: { transform: "translate3d(-90px, 0, 0)" },
-    to: { transform: "translate3d(85px, 0, 0)" }
+    to: { transform: "translate3d(80px, 0, 0)" }
   },
   parallax: {
     "& > use": {
-      animation: "$moveForever 4s cubic-bezier(0.62, 0.5, 0.38, 0.5) infinite",
+      animation: "$moveForever 5s cubic-bezier(0.62, 0.5, 0.38, 0.5) infinite",
       animationDelay: props => `-${props.animationNegativeDelay}s`
     }
   }

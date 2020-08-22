@@ -9,8 +9,8 @@ const styles = theme => ({
     display: "inline-flex",
     alignItems: "center",
     justifyContent: "center",
-    marginBottom: theme.spacing(3),
-    padding: theme.spacing(1) * 1.5
+    marginBottom: theme.spacing(5),
+    padding: theme.spacing(2) * 1.5
   }
 });
 

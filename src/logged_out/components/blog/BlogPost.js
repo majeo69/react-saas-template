@@ -10,11 +10,11 @@ import smoothScrollTop from "../../../shared/functions/smoothScrollTop";
 
 const styles = theme => ({
   blogContentWrapper: {
-    marginLeft: theme.spacing(1),
-    marginRight: theme.spacing(1),
+    marginLeft: theme.spacing(2),
+    marginRight: theme.spacing(2),
     [theme.breakpoints.up("sm")]: {
-      marginLeft: theme.spacing(4),
-      marginRight: theme.spacing(4)
+      marginLeft: theme.spacing(5),
+      marginRight: theme.spacing(5)
     },
     maxWidth: 1280,
     width: "100%"
@@ -27,7 +27,7 @@ const styles = theme => ({
     height: "auto"
   },
   card: {
-    boxShadow: theme.shadows[4]
+    boxShadow: theme.shadows[5]
   }
 });
 
@@ -72,7 +72,7 @@ function BlogPost(props) {
                 {content}
                 <Box pt={2}>
                   <Grid spacing={1} container>
-                    {["Facebook", "Twitter", "Reddit", "Tumblr"].map(
+                    {["Facebook", "Twitter", "Reddit", "Tumblr", "Hacker News", "VK", "E-Mail", "WhatsApp"].map(
                       (type, index) => (
                         <Grid item key={index}>
                           <ShareButton

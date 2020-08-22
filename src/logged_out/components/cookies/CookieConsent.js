@@ -14,8 +14,9 @@ const styles = (theme) => ({
   snackbarContent: {
     borderBotttomLeftRadius: 0,
     borderBottomRightRadius: 0,
-    paddingLeft: theme.spacing(3),
-    paddingRight: theme.spacing(3),
+    paddingLeft: theme.spacing(8),
+    paddingRight: theme.spacing(8),
+    left: 380
   },
 });
 

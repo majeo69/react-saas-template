@@ -46,8 +46,8 @@ const styles = (theme) => ({
     [theme.breakpoints.up("sm")]: {
       paddingTop: theme.spacing(5),
       paddingBottom: theme.spacing(5),
-      paddingLeft: theme.spacing(4),
-      paddingRight: theme.spacing(4),
+      paddingLeft: theme.spacing(5),
+      paddingRight: theme.spacing(5),
     },
     [theme.breakpoints.up("md")]: {
       paddingTop: theme.spacing(5.5),

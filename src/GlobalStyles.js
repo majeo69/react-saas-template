@@ -15,9 +15,9 @@ const styles = theme => ({
     ".listItemLeftPadding": {
       paddingTop: `${theme.spacing(1.75)}px !important`,
       paddingBottom: `${theme.spacing(1.75)}px !important`,
-      paddingLeft: `${theme.spacing(4)}px !important`,
+      paddingLeft: `${theme.spacing(5)}px !important`,
       [theme.breakpoints.down("sm")]: {
-        paddingLeft: `${theme.spacing(4)}px !important`
+        paddingLeft: `${theme.spacing(5)}px !important`
       },
       "@media (max-width:  420px)": {
         paddingLeft: `${theme.spacing(1)}px !important`
@@ -25,8 +25,8 @@ const styles = theme => ({
     },
     ".container": {
       width: "100%",
-      paddingRight: theme.spacing(4),
-      paddingLeft: theme.spacing(4),
+      paddingRight: theme.spacing(5),
+      paddingLeft: theme.spacing(5),
       marginRight: "auto",
       marginLeft: "auto",
       [theme.breakpoints.up("sm")]: {
@@ -62,7 +62,7 @@ const styles = theme => ({
         marginTop: `${theme.spacing(16)}px !important`
       },
       [theme.breakpoints.down("xs")]: {
-        marginTop: `${theme.spacing(14)}px !important`
+        marginTop: `${theme.spacing(15)}px !important`
       }
     },
     ".lg-mg-bottom": {
@@ -74,7 +74,7 @@ const styles = theme => ({
         marginBottom: `${theme.spacing(16)}px !important`
       },
       [theme.breakpoints.down("xs")]: {
-        marginBottom: `${theme.spacing(14)}px !important`
+        marginBottom: `${theme.spacing(15)}px !important`
       }
     },
     ".lg-p-top": {
@@ -86,7 +86,7 @@ const styles = theme => ({
         paddingTop: `${theme.spacing(16)}px !important`
       },
       [theme.breakpoints.down("xs")]: {
-        paddingTop: `${theme.spacing(14)}px !important`
+        paddingTop: `${theme.spacing(15)}px !important`
       }
     }
   }
