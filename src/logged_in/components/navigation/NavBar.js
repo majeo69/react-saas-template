@@ -202,6 +202,25 @@ function NavBar(props) {
       },
     },
     {
+// TODO: Add typography page
+      link: "/c/Typography",
+      name: "Typography",
+      onClick: closeMobileDrawer,
+      icon: {
+        desktop: (
+          <AccountBalanceIcon
+            className={
+              selectedTab === "Typography"
+                ? classes.textPrimary
+                : "text-white"
+            }
+            fontSize="small"
+          />
+        ),
+        mobile: <AccountBalanceIcon className="text-white" />,
+      },
+    },
+    {
       link: "/",
       name: "Logout",
       icon: {
@@ -235,7 +254,7 @@ function NavBar(props) {
                 display="inline"
                 color="primary"
               >
-                Wa
+                Temp
               </Typography>
               <Typography
                 variant="h4"
@@ -243,7 +262,7 @@ function NavBar(props) {
                 display="inline"
                 color="secondary"
               >
-                Ver
+                late
               </Typography>
             </Hidden>
           </Box>

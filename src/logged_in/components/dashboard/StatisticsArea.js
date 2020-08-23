@@ -13,7 +13,7 @@ function StatisticsArea(props) {
           <CardChart
             data={data.profit}
             color={theme.palette.secondary.light}
-            height="70px"
+            height="100px"
             title="Profit"
           />
         </Grid>
@@ -21,7 +21,7 @@ function StatisticsArea(props) {
           <CardChart
             data={data.views}
             color={theme.palette.primary.light}
-            height="70px"
+            height="100px"
             title="Views"
           />
         </Grid>
@@ -30,10 +30,12 @@ function StatisticsArea(props) {
   );
 }
 
+
+
 StatisticsArea.propTypes = {
   theme: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,
-  CardChart: PropTypes.elementType
+  CardChart: PropTypes.elementType,
 };
 
 export default withTheme(StatisticsArea);
